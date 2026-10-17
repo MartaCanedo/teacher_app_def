@@ -1,16 +1,47 @@
-# teacher_app
+# Campus Link — Teacher App
 
-A new Flutter project.
+A Flutter desktop application for Campus Link, designed to support teaching-related workflows through cloud-based data management, calendar tools, and document generation.
+
+## Features
+
+- **Authentication** — Firebase Authentication integration.
+- **Cloud Database** — Data management with Cloud Firestore.
+- **Calendar** — Calendar integration for organizing teaching-related activities.
+- **Excel Support** — Spreadsheet handling and data export.
+- **PDF Generation & Printing** — Create and print PDF documents.
+- **File Management** — File selection and import tools.
+- **Desktop Interface** — Built with Flutter and Dart.
+
+## Tech Stack
+
+- Flutter & Dart
+- Firebase Authentication
+- Cloud Firestore
+- Provider
+- Table Calendar
+- Excel
+- PDF & Printing
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+### Requirements
+- Flutter SDK
+- Dart SDK
+- Firebase project configuration
 
-A few resources to get you started if this is your first Flutter project:
+### Installation
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+git clone https://github.com/Theproxycos/teacher_app_def.git
+cd teacher_app_def
+flutter pub get
+flutter run
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Security
+
+Some project files have been omitted to protect sensitive information. Configure Firebase credentials securely before running the application.
+
+## Author
+
+[Theproxycos](https://github.com/Theproxycos)
